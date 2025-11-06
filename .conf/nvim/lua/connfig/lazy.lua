@@ -51,3 +51,11 @@ require("lazy").setup({
     },
   },
 })
+
+require("neo-tree").setup({
+  window = {
+    mappings = {
+      ["<C-cr>"] = "set_root",
+    },
+  },
+})
